@@ -1,13 +1,6 @@
-.vscode/
-/themes/my-wordpress-theme/composer.lock
-/env/prod
-/themes/my-wordpress-theme/node_modules
-/themes/my-wordpress-theme/vendor
-/themes/my-wordpress-theme/assets
-/themes/my-wordpress-theme/dist
-
 /*
 .vscode/
+!/README.md
 !/Dockerfiles
 !/env
 /env/prod
