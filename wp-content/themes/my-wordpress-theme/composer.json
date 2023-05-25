@@ -1,0 +1,11 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Models\\": [ "models/"],
+            "Components\\": [ "components" ]
+        }
+    },
+    "require": {
+        "vincentts/wp-models": "^0.1.1"
+    }
+}

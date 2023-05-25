@@ -1,0 +1,7 @@
+.git
+.gitignore
+.dockerignore
+docker-compose.yaml
+wp-config-sample.php
+/Dockerfiles
+/env
