@@ -1,4 +1,4 @@
-FROM node:19
+FROM node:20-slim
 
 COPY wp-content/themes/my-wordpress-theme /var/www/html/wp-content/themes/my-wordpress-theme
 
