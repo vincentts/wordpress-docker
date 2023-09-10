@@ -26,11 +26,11 @@ function enqueue_script( string $js_name, array $custom_options = [] ) {
     $options = array_merge( $default_options, $custom_options );
 
     if ( $options['register'] ) {
-        wp_register_script( $js_name, $options['src'], $options['dependecies'], $options['version'], $options['in_footer'] );
+        wp_register_script( $js_name, $options['src'], $options['dependencies'], $options['version'], $options['in_footer'] );
         return;
     }
 
-    wp_enqueue_script( $js_name, $options['src'], $options['dependecies'], $options['version'], $options['in_footer'] );
+    wp_enqueue_script( $js_name, $options['src'], $options['dependencies'], $options['version'], $options['in_footer'] );
 
     if ( $options['attr'] !== '' ) {
         wp_script_add_data( $js_name, 'attr', $options['attr'] );
